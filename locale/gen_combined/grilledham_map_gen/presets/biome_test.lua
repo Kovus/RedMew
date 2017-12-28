@@ -1,6 +1,6 @@
 require "locale.gen_combined.grilledham_map_gen.map_gen"
 
-map_gen_decoratives = true
+map_gen_decoratives = false
 
 local pic = require "locale.gen_combined.grilledham_map_gen.data.biome_test"
 

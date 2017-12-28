@@ -4,15 +4,25 @@ local tile_types = {
 	"stone-path",
 	"hazard-concrete-right",
 	"lab-dark-1",
-	"grass",
-	"grass-medium",
-	"grass-dry",
-	"dirt",
-	"dirt-dark",
-	"red-desert",
-	"red-desert-dark",
-	"sand",
-	"sand-dark",
+	"grass-1",
+	"grass-2",
+	"grass-3",
+	"grass-4",
+	"dirt-1",
+	"dirt-2",
+	"dirt-3",
+	"dirt-4",
+	"dirt-5",
+	"dirt-6",
+	"dirt-7",
+	"dry-dirt",
+	"red-desert-0",
+	"red-desert-1",
+	"red-desert-2",
+	"red-desert-3",
+	"sand-1",
+	"sand-2",
+	"sand-3",
 	"lab-dark-2",
 	"water",
 	"deepwater",
@@ -20,8 +30,8 @@ local tile_types = {
 	"deepwater-green",
 	"out-of-map",
 }
-local cols = 5
-local rows = 20 / cols
+local cols = 6
+local rows = 30 / cols
 
 local tile_width = 32
 local tile_height = 32
